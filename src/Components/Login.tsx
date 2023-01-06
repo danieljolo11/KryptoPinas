@@ -3,7 +3,7 @@ import "antd/dist/reset.css";
 import "../App.css";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Card, Checkbox, Form, Input } from "antd";
-import { gql, useMutation, useQuery } from "@apollo/client";
+import { gql, useMutation } from "@apollo/client";
 
 const SIGN_IN = gql`
   mutation loginUserAction($username: String!, $password: String!) {

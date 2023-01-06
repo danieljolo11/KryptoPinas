@@ -7,9 +7,7 @@ import {
   LineChart,
   CartesianGrid,
   XAxis,
-  YAxis,
   Tooltip,
-  Legend,
   Line,
 } from "recharts";
 
